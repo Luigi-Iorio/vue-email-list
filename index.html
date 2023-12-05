@@ -29,7 +29,14 @@
     <!-- /axios -->
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <h1>Mail List</h1>
+      <div class="container">
+        <ul>
+          <li v-for="mail in mailList">{{mail}}</li>
+        </ul>
+      </div>
+    </div>
   </body>
   <!-- VueJS -->
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
